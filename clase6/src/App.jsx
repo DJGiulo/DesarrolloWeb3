@@ -18,10 +18,10 @@ function App() {
 
   return (
     <>
-    <Router>
+    <Router >
       <Navbar/>
-      <h1>Gestión de Usuarios</h1>
-      <p>Aplicación para gestionar usuarios</p>
+      <h1 style={{fontFamily: 'Edu NSW ACT Hand Pre, cursive'}}>Gestión de Usuarios</h1>
+      <p style={{fontFamily: 'Roboto Condensed, cursive', fontSize: "18px"}}>Aplicación para gestionar usuarios</p>
       <Routes>
         <Route path="/" element={<UserList />} />
         <Route path="/users/:id" element={<UserDetails />} />
